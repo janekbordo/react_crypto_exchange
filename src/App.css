@@ -30,3 +30,34 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background: #f1f1f1;
+  padding:50px;
+}
+
+.crypto-container {
+  background:white;
+  width: 70%;
+  margin: 5px auto 4px auto;
+  padding: 1em;
+  box-shadow: 1px 1px 0 lightgrey;
+}
+
+.currency {
+  height:50px;
+  width:70px;
+  background-color: #000;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+span.left {
+  font-weight: bold;
+}
+
+span.right {
+  float:right;
+}
